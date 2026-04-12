@@ -1,0 +1,11 @@
+name : Multoi job example
+on: push
+jobs:
+  build:
+     runs-on: ubuntu-latest
+     steps:
+       - run: echo "Building app..."
+  test:
+     runs-on: ubuntu-latest
+     steps:
+        - run: echo "Running tests..."
