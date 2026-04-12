@@ -1,5 +1,7 @@
 name : Multoi job example
 on: push
+env:
+  APP_NAME: my-app
 jobs:
   build:
      runs-on: ubuntu-latest
