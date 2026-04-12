@@ -1,0 +1,11 @@
+name: My first workflow
+
+on: push
+
+jobs:
+  hello-jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name:
+        run: echo "hello akash! ,Welcome to github actions!"
